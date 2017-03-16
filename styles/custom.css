@@ -8,35 +8,49 @@
 }
 
 .for-back-nav {
+	width: 70%;
+	margin: auto;
+}
+
+.full-width {
 	width: 100%;
 	margin: auto;
 }
 
 .home-button {
-	width: 50%;
+	width: 35%;
 	margin: auto;
 }
 .back-button {
-	width: 50%;
+	width: 35%;
 	margin: auto;
 }
 
 .consumer-rec-panel {
 		margin-bottom: 50px;
-    padding: 2px;
+    padding: 3px;
     background-color: rgba(232, 232, 232, 0.26);
 }
 
-.feedback {
+.consumer-rec-panel p {
 
+    padding: 0 10px;
 
 }
 
 /*Visual Feedback for Image Links*/
-a img:focus, a img:active{
+
+/*In Body*/
+.ui-content a img:focus, .ui-content a img:active{
   /*box-shadow: 0 0 5px 5px #000;*/
 	background-color: #dedede;
 	width: 90%;
+}
+
+/*In Footer Grid*/
+.ui-footer a img:focus, .ui-footer a img:active{
+  /*box-shadow: 0 0 5px 5px #000;*/
+	background-color: #dedede;
 }
 
 .for-back-nav-p {
