@@ -27,6 +27,17 @@
     background-color: rgba(232, 232, 232, 0.26);
 }
 
+.feedback {
+
+
+}
+
+/*Visual Feedback for Image Links*/
+a img:focus, a img:active{
+  /*box-shadow: 0 0 5px 5px #000;*/
+	background-color: #dedede;
+	width: 90%;
+}
 
 .for-back-nav-p {
 	text-align: center;

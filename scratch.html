@@ -10,33 +10,67 @@
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<style type="text/css">
 
-.button-back-sprite {
-	background-image: url('assets/buttons/back-button-light.png');
 
+.my-button {
+    background-image: url('assets/buttons/back-button.png') !important;
 }
+
 	</style>
+	<script>
+	$(document).bind("mobileinit", function () {
+      $.mobile.defaultPageTransition = 'slide';
+});
+$( document ).on( "click", ".show-page-loading-msg", function() {
+    var $this = $( this ),
+        theme = $this.jqmData( "theme" ) || $.mobile.loader.prototype.options.theme,
+        msgText = $this.jqmData( "msgtext" ) || $.mobile.loader.prototype.options.text,
+        textVisible = $this.jqmData( "textvisible" ) || $.mobile.loader.prototype.options.textVisible,
+        textonly = !!$this.jqmData( "textonly" );
+        html = $this.jqmData( "html" ) || "";
+    $.mobile.loading( "show", {
+            text: msgText,
+            textVisible: textVisible,
+            theme: theme,
+            textonly: textonly,
+            html: html
+    });
+})
+.on( "click", ".hide-page-loading-msg", function() {
+    $.mobile.loading( "hide" );
+});
+</script>
 	</head>
 <body>
 
-<div data-role="page" id="why-care">
+<div data-role="page" id="foo">
 
 <div data-role="main" class="ui-content">
-<img src="assets/buttons/back-button.png" />
-	<a class="button-back-sprite"></a>
+on foo
+	<a data-role="button" class="" href="home-page.html" rel="external">linky</a>
+	<a data-role="button" class="show-page-loading-msg" href="#bar" rel="external">bar</a>
+
+
 
 
 
 </div><!--/body-->
-	
-<div data-role="footer" data-position="fixed">
-    <div data-role="navbar">
-        <ul>
-            <li><a href="#"><img width="75%" src="assets/buttons/back-button.svg" /></a></li>
-            <li><a href="#"><img width="75%" src="assets/buttons/back-button.svg" /></a></li>
 
-        </ul>
-    </div>
-</div>
+
+</div><!--/page-->
+
+<div data-role="page" id="bar">
+
+<div data-role="main" class="ui-content">
+on bar
+	<a data-role="button" class="" href="home-page.html" rel="external">linky</a>
+	<a data-role="button" class="" href="#foo" rel="external">foo</a>
+
+
+
+
+
+</div><!--/body-->
+
 
 </div><!--/page-->
 </body>
