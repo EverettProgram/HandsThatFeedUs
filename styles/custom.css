@@ -1,3 +1,5 @@
+
+
 .centered {
 	text-align: center;
 }
@@ -27,15 +29,13 @@
 }
 
 .consumer-rec-panel {
-		margin-bottom: 50px;
-    padding: 3px;
-    background-color: rgba(232, 232, 232, 0.26);
+	margin-bottom: 50px;
+  padding: 3px;
+  background-color: rgba(232, 232, 232, 0.26);
 }
 
 .consumer-rec-panel p {
-
-    padding: 0 10px;
-
+  padding: 0 10px;
 }
 
 /*Visual Feedback for Image Links*/
@@ -51,6 +51,20 @@
 .ui-footer a img:focus, .ui-footer a img:active{
   /*box-shadow: 0 0 5px 5px #000;*/
 	background-color: #dedede;
+}
+
+/*On Landing Page*/
+ a #landing-entry:focus, .non-footer a #landing-entry:active{
+  /*box-shadow: 0 0 5px 5px #000;*/
+	background-color: #dedede;
+	width: 0;
+}
+
+/*
+Removes the borders from the footer. Easiest way to solve the awkwardness of the non-sticky footer
+*/
+.ui-footer { 
+	border: 0px black solid;
 }
 
 .for-back-nav-p {
