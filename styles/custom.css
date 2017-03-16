@@ -15,7 +15,7 @@
 }
 
 .full-width {
-	width: 100%;
+	width: 98%;
 	margin: auto;
 }
 
@@ -44,21 +44,18 @@
 .ui-content a img:focus, .ui-content a img:active{
   /*box-shadow: 0 0 5px 5px #000;*/
 	background-color: #dedede;
-	width: 90%;
+	border: 2px solid white;
+
 }
 
 /*In Footer Grid*/
 .ui-footer a img:focus, .ui-footer a img:active{
   /*box-shadow: 0 0 5px 5px #000;*/
-	background-color: #dedede;
+	  background-color: #c73a22;
+    border-radius: 10px;
 }
 
-/*On Landing Page*/
- a #landing-entry:focus, .non-footer a #landing-entry:active{
-  /*box-shadow: 0 0 5px 5px #000;*/
-	background-color: #dedede;
-	width: 0;
-}
+
 
 /*
 Removes the borders from the footer. Easiest way to solve the awkwardness of the non-sticky footer
