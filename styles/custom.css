@@ -38,6 +38,14 @@
   padding: 0 10px;
 }
 
+.logo {
+	width: 80%;
+}
+
+.members-list, .credit-line {
+	list-style-type: none;
+}
+
 /*Visual Feedback for Image Links*/
 
 /*In Body*/
@@ -84,7 +92,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #C73A22;
 }
 
-
+#credits h4 {
+	margin-bottom: 0px;
+}
+.researchers p {
+	margin-top: 5px;
+}
 
 /*Inline Styles*/
 
