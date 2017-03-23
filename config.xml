@@ -3,7 +3,7 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android = "http://schemas.android.com/apk/res/android"
 		
-		id = "com.htfu2017.everett"
+		id = "com.everettprogram.htfu2017"
 		versionCode="10"
 		version   = "1.0.0">
 		<name>Hands That Feed Us</name>
