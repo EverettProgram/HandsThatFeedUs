@@ -100,7 +100,7 @@
     	<splash src="resources/ios/splash/Default-Landscape@2x~ipad.png" gap:platform="ios" height="1536" width="2048"/>
     	<splash src="resources/ios/splash/Default-Landscape~ipad.png" gap:platform="ios"    height="768" width="1024"/>
     	<!--Default-Portrait@2x~ipad_1536x2008-->
-    	<splash src="resources/ios/splash/Default-Portrait@2x~ipad.png" gap:platform="ios"  height="2048" width="1536"/>
+    	<splash src="resources/ios/splash/Default-Portrait@2x~ipad.png" gap:platform="ios"  height="1536" width="2048"/>
       <splash src="resources/ios/splash/Default-Portrait~ipad.png" gap:platform="ios"     height="1024" width="768"/> <!--altered fro 768-->
 			<!--Default-->
 			<splash src="resources/ios/splash/Default@2x~iphone.png" gap:platform="ios"         height="960" width="640"/>
