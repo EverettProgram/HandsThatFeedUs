@@ -5,7 +5,7 @@
 		
 		id = "com.everettprogram.htfu2017"
 		versionCode="10"
-		version   = "1.0.0">
+		version   = "1.0.1">
 		<name>Hands That Feed Us</name>
 		<description>For Food Chain Workers Alliance</description>
 		<author href="everettprogram.org/yei" email="info@everettprogram.org">Everett Program</author>
