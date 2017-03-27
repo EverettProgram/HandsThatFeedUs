@@ -16,6 +16,9 @@
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
+    <string>200</string>
+    </gap:config-file>
     <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
