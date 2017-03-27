@@ -4,7 +4,7 @@
 		xmlns:android = "http://schemas.android.com/apk/res/android"
 		
 		id = "com.everettprogram.htfu2017"
-		versionCode="10"
+		versionCode="20"
 		version   = "2.0.0">
 		<name>Hands That Feed Us</name>
 		<description>For Food Chain Workers Alliance</description>
